@@ -1,15 +1,23 @@
 
 
-function show(){
+// function show(){
+    
+//     let texte=document.querySelector("#texte");
+
+//     texte.style.display="block";
+// }
+
+// function hide(){
+    
+//     let texte=document.querySelector("#texte");
+
+//     texte.style.display="none";
+// }
+function changeStyle(display){
     
     let texte=document.querySelector("#texte");
 
-    texte.style.display="block";
+    texte.style.display=display;
 }
 
-function hide(){
-    
-    let texte=document.querySelector("#texte");
 
-    texte.style.display="none";
-}
