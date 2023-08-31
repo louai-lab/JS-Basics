@@ -1,7 +1,9 @@
 
 
-function green() {
+function changeColor(color) {
 
-    document.querySelector("color green").style.color = "green";
+    let paragraphe=document.getElementById("text");
+    
+    paragraphe.style.color=color;
     
     }
