@@ -53,7 +53,7 @@ const absoluteValue = (num) => {
     return Math.abs(num);
 }
 const absoluteValueArray = (array) => {
-    return array.map(Math.abs);
+    return array.map(Math.abs);2
 }
 const circleSurface = (radius) => {
     return Math.round(Math.PI * radius * radius);
