@@ -73,41 +73,51 @@ const createLanguagesArray = () => {
 ////////////////////////////
 
 const createNumbersArray = () => {
-
+    const array=[0,1,2,3,4,5];
+    return array;
 }
 
 const replaceElement = (languages) => {
-
+    languages[2]="Javascript";
+    return languages;
 }
 
 const addElement = (languages) => {
-
+    languages.push("Ruby","Python");
+    return languages;
 }
 
 const addNumberElement = (numbers) => {
-
+    numbers.unshift(-2,-1);
+    return numbers;
 }
 
 const removeFirst = (languages) => {
-
+    languages.shift();
+    return languages;
 }
 
 const removeLast = (languages) => {
-
+    languages.pop();
+    return languages;
 }
 
 const convertStrToArr = (social_arr) => {
-
+    const arr=social_arr.split(",");
+    return arr;
 }
 
 const convertArrToStr = (languages) => {
-
+    let text = languages.toString();
+    return text;
 }
 
 const sortArr = (social_arr) => {
-
+    social_arr.sort();
+    return social_arr;
 }
 
 const invertArr = (social_arr) => {
-
+    social_arr.reverse();
+    return social_arr;
 }
